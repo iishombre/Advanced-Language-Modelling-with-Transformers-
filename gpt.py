@@ -18,7 +18,6 @@ dropout = 0.2
 
 torch.manual_seed(1337)
 
-# wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
 with open(r'C:\Users\Mathesh R\.conda\envs\env_pytorch\Nanogpt-master\input.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
